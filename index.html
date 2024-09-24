@@ -1,151 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      table {
-        width: 600px;
-        border-collapse: collapse; 
 
-      }
-      
-      body {
-        font-family: "Roboto", sans-serif;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
 
-        font-style: normal;
-      }
-      .button {
-        background-color: #fdda24;
-        border-radius: 20px;
-        width: 200px;
-        height: 35px;
-        border: none;
-        cursor: pointer; 
-      }
-      a{
-        text-decoration: none;
-        color: black;
-      }
-      .espaciado {
-        padding-left: 25px;
-      }
-      td {
-  border: none; 
-  padding: 0; 
-  margin: 0; 
-}
+  <style>
+    table {
+      width: 600px;
+      border-collapse: collapse;
+    }
 
-    </style>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td style="color: gray;font-size: 7px;">
-          Sorpr&eacutendete con Tu informe y descubre nuestras recomendaciones
-          para cumplir tus metas.
-        </td>
-      </tr>
-      <tr style="background-color: #2c2a29">
-        <td style="padding-top: 20px; padding-bottom: 20px; padding-left: 5px">
-          <img src="unnamed.png" style="width: 150px" />
-        </td>
-      </tr>
-      <tr>
-        <td  style="background-color: #fdda24;height:3px;"></td>
-      </tr>
-      <tr>
-        <td><img src="unnamed.gif" alt="" /></td>
-      </tr>
-      <tr>
-        <td class="espaciado" style="font-family: roboto; font-size: 40px">
-          <strong>Se ha registrado un ingreso sospechoso a tu cuenta</strong>
-        </td>
-      </tr>
-      <tr>
-        <td class="espaciado">
-          Hola <strong>Orlando</strong>, <br />
-          Se ha registrado un ingreso sospechoso a tu cuenta,Si no has sido tu,
-          clickea aqui abajo para validar tus datos y poner tu cuenta a salvo
-          <br />
-          <br />
-          <br />
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center">
-          <a href=""><button class="button"><strong>Volver estar a salvo</strong></button></a>
-        </td>
-      </tr>
 
-      <tr>
-        <td style="padding-left: 40%">
-          <br /><br /><img src="qr.png" style="width: 120px" alt="" />
+    body {
+      font-family: "Roboto", sans-serif;
+
+      font-style: normal;
+    }
+
+    .button {
+      background-color: #fdda24;
+      border-radius: 20px;
+      width: 200px;
+      height: 35px;
+      border: none;
+      cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .espaciado {
+      padding-left: 25px;
+    }
+
+    td {
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .linea {
+      border: 1px solid black;
+      height: 100px;
+      /* Ajusta la altura de la línea según sea necesario */
+      width: 1px;
+      margin: 0 10px;
+      /* Espaciado entre imágenes y línea */
+    }
+
+    .cuadro {
+      padding: 0;
+
+    }
+
+    .imagenes {
+      width: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td style="color: #e0e3e6; font-size: 7px">
+        Sorpr&eacutendete con Tu informe y descubre nuestras recomendaciones
+        para cumplir tus metas.
+      </td>
+    </tr>
+    <tr style="background-color: #2c2a29">
+      <td style="padding-top: 20px; padding-bottom: 20px; padding-left: 5px">
+        <img src="unnamed.png" style="width: 150px" />
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #fdda24; height: 4px"></td>
+    </tr>
+    <tr>
+      <td><img src="unnamed.gif" alt="" /></td>
+    </tr>
+    <tr>
+      <td class="espaciado" style="font-family: roboto; font-size: 35px">
+        <strong>Se ha registrado un ingreso sospechoso a tu cuenta</strong>
+      </td>
+    </tr>
+    <tr>
+      <td class="espaciado">
+        Hola <strong>Orlando</strong>, <br />
+        Se ha registrado un ingreso sospechoso a tu cuenta,Si no has sido tu,
+        clickea aqui abajo para validar tus datos y poner tu cuenta a salvo
+        <br />
+        <br />
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+        <a href=""><button class="button">
+            <strong>Volver estar a salvo</strong>
+          </button></a>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding-left: 40%">
+        <br /><br /><img src="Untitled.png" style="width: 120px" alt="" />
+      </td>
+    </tr>
+
+    <tr>
+      <td class="espaciado">
+        O si prefieres y estás en tu computador, escanea el QR con tu celular
+        para conocerlo.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-left: 20%">
+        <strong>Mantén el control de tus finanzas. Te acompañamos.</strong>
+      </td>
+    </tr>
+    <br />
+    <br />
+    <tr>
+      <table>
+        <td style="width: 220px; padding-left: 15%">
+          <img src="Imagen.png" style="height: 175px" alt="" />
         </td>
-      </tr>
-      
-      <tr>
-        <td class="espaciado">
-          Puedes Verificar la veracidad de este correo escaneando el codigo QR
-        </td>
-      </tr>
-      <tr>
-        <td style="padding-left: 20%;">
-                <strong>Mantén el control de tus finanzas. Te acompañamos.</strong>
-        </td>
-      </tr>
-      <br>
-      <br>
-      <tr>
-        <table>
-          <td style="width: 200px;padding-left: 15%;">
-            <img src="Imagen.png" style="height: 175px;" alt="" />
-          </td>
-          <td style="font-size: 8px">
-           <footer style="padding-top: 80px;padding-bottom: 40px;padding-left: 40px;">
+        <td style="font-size: 9px">
+          <footer style="
+                padding-top: 80px;
+                padding-bottom: 40px;
+                padding-left: 100px;
+              ">
             <img src="logo2.png" style="width: 200px" alt="" />
-           </footer>
-            <hr  style="border-color: #fdda24; "/>
-            <br>
-            <br>
-            <br>
-            Por tu seguridad, desde Bancolombia nunca te solicitaremos tus datos
-            personales, como usuario y clave; ni tus datos bancarios, como
-            números de tarjetas de crédito, códigos de seguridad y plazos.
-            Ninguno de nuestros agentes te pedirá ni por escrito ni por teléfono
-            este tipo de información. Para comprobar la autenticidad de este
-            correo electrónico o cualquier otra comunicación que recibas de
-            nosotros, reenvíalo a <strong>correosospechoso@bancolombia.com.co</strong>.
-            <br />
-            <br />
-            <br />
-            ¿Tienes dudas? Llámanos y las resolvemos.
-            <br />
-            <br />
-            <br />
-            En Bogotá <strong>(601) 343 0000</strong>, Medellín
-            <strong>(604) 510 9000</strong>, Cali
-            <strong>(602) 554 0505</strong>, Barranquilla
-            <strong>(605) 361 8888</strong>, Bucaramanga
-            <strong>(607) 697 2525</strong>, Cartagena
-            <strong>(605) 693 4400</strong>, Resto del país
-            <strong> 018000912345</strong>. Sede principal Carrera 48 # 26-85
-            Torre Norte. Medellín - Colombia
-            <br />
-            <br />
-            <br />
-            <a href=""><strong>¿Quieres cancelar tu suscripción?</strong></a>
-          </td>
-        </table>
-      </tr>
-      
-    </table>
-  </body>
+          </footer>
+          <hr style="border-color: #fdda24; width: 80%" />
+          <br />
+          <br />
+          <br />
+          Por tu seguridad, desde Bancolombia nunca te solicitaremos tus datos
+          personales, como usuario y clave; ni tus datos bancarios, como
+          números de tarjetas de crédito, códigos de seguridad y plazos.
+          Ninguno de nuestros agentes te pedirá ni por escrito ni por teléfono
+          este tipo de información. Para comprobar la autenticidad de este
+          correo electrónico o cualquier otra comunicación que recibas de
+          nosotros, reenvíalo a
+          <strong>correosospechoso@bancolombia.com.co</strong>.
+          <br />
+          <br />
+          <br />
+          ¿Tienes dudas? Llámanos y las resolvemos.
+          <br />
+          <br />
+          <br />
+          En Bogotá <strong>(601) 343 0000</strong>, Medellín
+          <strong>(604) 510 9000</strong>, Cali
+          <strong>(602) 554 0505</strong>, Barranquilla
+          <strong>(605) 361 8888</strong>, Bucaramanga
+          <strong>(607) 697 2525</strong>, Cartagena
+          <strong>(605) 693 4400</strong>, Resto del país
+          <strong> 018000912345</strong>. Sede principal Carrera 48 # 26-85
+          Torre Norte. Medellín - Colombia
+          <br />
+          <br />
+          <br />
+          <a href="" style="text-decoration: underline;"><strong>¿Quieres cancelar tu suscripción?</strong></a>
+        </td>
+      </table>
+    </tr>
+    <br>
+
+    <tr>
+      <a href="" style="font-size: 9px;text-decoration: underline;"><strong>Activar suscripción</strong></a>
+
+    </tr>
+    <br>
+    <br>
+    <br>
+    <tr>
+      <td class="cuadro">
+        <a href="https://www.facebook.com/Bancolombia/"><img class="imagenes" src="image.png" alt="" /></a>
+      </td>
+      <td class="linea"></td>
+      <td class="cuadro">
+        <a href="https://x.com/Bancolombia"><img class="imagenes" src="image (1).png" alt="" /></a>
+      </td>
+      <td class="linea"></td>
+      <td class="cuadro">
+        <a href="https://www.linkedin.com/company/bancolombia/posts/?feedView=all"><img class="imagenes" src="image (2).png" alt="" /></a>
+      </td>
+      <td class="linea"></td>
+      <td class="cuadro">
+        <a href="https://www.instagram.com/bancolombia/"><img class="imagenes" src="image (3).png" alt="" /></a>
+      </td>
+      <td class="linea"></td>
+      <td class="cuadro">
+        <a href="https://www.youtube.com/user/GrupoBancolombia"><img class="imagenes" src="image (4).png" alt="" /></a>
+      </td>
+      <td class="linea"></td>
+      <td class="cuadro">
+        <a href="https://api.whatsapp.com/send/?phone=573013536788&text&app_absent=0"><img class="imagenes" src="image (5).png" alt="" /></a>
+      </td>
+    </tr>
+  </table>
+</body>
+
 </html>
